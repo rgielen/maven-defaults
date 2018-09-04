@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -6,7 +7,7 @@
         <artifactId>oss-parent</artifactId>
         <version>9</version>
     </parent>
-    
+
     <groupId>net.rgielen</groupId>
     <artifactId>maven-defaults</artifactId>
     <packaging>pom</packaging>
@@ -34,11 +35,11 @@
         <url>https://github.com/rgielen/maven-defaults</url>
         <connection>scm:git:https://github.com/rgielen/maven-defaults.git</connection>
         <developerConnection>scm:git:git@github.com:rgielen/maven-defaults.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>        
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.level>1.8</java.level>
         <hibernate.version>5.3.6.Final</hibernate.version>
         <spring-framework.version>5.0.8.RELEASE</spring-framework.version>
