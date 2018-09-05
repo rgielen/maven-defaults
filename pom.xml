@@ -47,6 +47,7 @@
         <hsqldb.version>2.4.1</hsqldb.version>
         <h2.version>1.4.197</h2.version>
         <servlet-api.version>3.1.0</servlet-api.version>
+        <querydsl.version>4.2.1</querydsl.version>
     </properties>
 
     <dependencyManagement>
@@ -55,6 +56,23 @@
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-entitymanager</artifactId>
                 <version>${hibernate.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-jpamodelgen</artifactId>
+                <version>${hibernate.version}</version>
+                <optional>true</optional>
+            </dependency>
+            <dependency>
+                <groupId>com.querydsl</groupId>
+                <artifactId>querydsl-apt</artifactId>
+                <version>${querydsl.version}</version>
+                <optional>true</optional>
+            </dependency>
+            <dependency>
+                <groupId>com.querydsl</groupId>
+                <artifactId>querydsl-jpa</artifactId>
+                <version>${querydsl.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
