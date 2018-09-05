@@ -10,7 +10,7 @@
     <groupId>net.rgielen</groupId>
     <artifactId>maven-defaults</artifactId>
     <packaging>pom</packaging>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <description>
         Sensible Maven defaults for derived projects
@@ -45,7 +45,7 @@
         <url>https://github.com/rgielen/maven-defaults</url>
         <connection>scm:git:https://github.com/rgielen/maven-defaults.git</connection>
         <developerConnection>scm:git:git@github.com:rgielen/maven-defaults.git</developerConnection>
-        <tag>1.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
